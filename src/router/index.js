@@ -26,19 +26,9 @@ const routes = [
     component: () => import('../views/TeamsView.vue')
   },
   {
-    path: '/Efrim',
-    name: 'Efrim',
-    component: () => import('../views/EfrimView.vue')
-  },
-  {
-    path: '/Elena',
-    name: 'Elena',
-    component: () => import('../views/ElenaView.vue')
-  },
-  {
-    path: '/Alan',
-    name: 'Alan',
-    component: () => import('../views/AlanView.vue')
+    path: '/teams/:memberId',
+    name: 'member',
+    component: () => import('../views/TeamMember.vue')
   }
 ]
 

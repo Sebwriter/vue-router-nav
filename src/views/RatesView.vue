@@ -247,3 +247,7 @@
             </section>
     </main>
 </template>
+
+<style scoped>
+@import "@/assets/static/css/huge-table.css";
+</style>

@@ -63,3 +63,7 @@
     </div>
     </main>
 </template>
+
+<style scoped>
+@import "@/assets/static/css/testimonials.css";
+</style>
